@@ -5,7 +5,9 @@ This plugin makes it easy for a web developer or designer to add a slick "letter
 
 This jQuery plugin supplies an easy way to unobtrusively add a letter-based navigation widget to any UL or OL list. An easily stylable (via CSS) nav bar appears above the list, showing the user the letters A-through-Z. Clicking one of the letters filters the list to show only the items in the list that start with that letter. Hovering over a letter (optionally) shows a count above the letter, indicating how many items will be displayed if that letter is clicked. Other options give you control over the basic functionality.
 
-Features
+[View the Demos](http://cdn.ihwy.net/ihwy-com/labs/demos/jquery-listnav.html)
+
+## Highlights
 
 * Easy to unobtrusively add to existing lists
 * Works great on long lists: tuned for performance
@@ -17,15 +19,6 @@ Features
 * Works with any HTML inside LI's: first letter of actual text is found and used for filtering
 * Demos are available to help you implement the plugin
 
-**Options**
+## More Information
 
-* Optional hovering "record count" over each letter gives user a hint of how many items will appear
-* Optional "ALL" nav item lets your users see all the items in the list
-* Optionally loads up first letter that contains items (ie, if none start with A, but some start with B, B will preload)
-* Optionally force a specific letter to preload (ie, preload with C selected)
-* Optionally use a CSS class for making letters with no list items appear "disabled"
-* Optionally set the text that appears if a letter with no list items is clicked
-* Set the name of the cookie you'd like to store the last clicked letter in.
-* Optionally fire a custom javascript callback after a letter is clicked.
-* Optionally specify prefixes (like "The" or "A") to ignore.
-* Optional '[...]' menu item for access to list items that start with punctuation or chars like Ä and Ü.
+For complete info about how to use this plugin, see the [jQuery ListNav](http://www.ihwy.com/labs/jquery-listnav-plugin.aspx) page at the [iHwy, Inc.](http://www.ihwy.com) site.
