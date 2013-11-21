@@ -79,7 +79,7 @@
 			// positions the letter count div above the letter links (so we only have to do it once: after this we just change it's left position via mouseover)
 			//
 			function setLetterCountTop() {
-				$letterCount.css({ top: $('.a', $letters).slice(0, 1).offset({ margin: false, border: true }).top - $letterCount.outerHeight({ margin: true }) }); // note: don't set top based on '.all': it might not be visible
+				$letterCount.css({ top: $('.a').position().top - $('.ln-letter-count').outerHeight() }); // note: don't set top based on '.all': it might not be visible
 			}
 
 			// adds a class to each LI that has text content inside of it (ie, inside an <a>, a <div>, nested DOM nodes, etc)
